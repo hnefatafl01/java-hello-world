@@ -1,0 +1,25 @@
+import java.util.Map;
+
+import spark.Route;
+
+import java.util.HashMap;
+import static spark.Spark.*;
+
+public class mainApp {
+	
+	public static void main(String[] args) {
+	    staticFileLocation("/public");
+	    String layout = "templates/layout.vtl";
+	
+	    
+	
+    }
+
+	private static void get(String string, Route route) {
+		get("/", (Request, Response) -> {
+		      Map<String, Object> model = new HashMap<String, Object>();
+		      System.out.println(model);
+		    });
+		
+	}
+}

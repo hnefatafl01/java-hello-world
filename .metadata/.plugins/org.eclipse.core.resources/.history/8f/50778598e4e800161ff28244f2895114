@@ -1,0 +1,9 @@
+
+
+public class thingsService {
+
+	public thingsService() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

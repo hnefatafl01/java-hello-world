@@ -1,0 +1,17 @@
+import java.time.LocalDateTime;
+
+public class Things {
+
+	private String description;
+    private LocalDateTime createdAt;
+	private int id;
+	 
+	public Things(String description) {
+		  this.description = description;
+		  createdAt = LocalDateTime();
+	}
+
+	public String getDescription() {
+	  return mDescription;
+	}
+}

@@ -1,0 +1,27 @@
+import java.util.Map;
+import java.util.ArrayList;
+import java.util.HashMap;
+import static spark.Spark.*;
+
+
+
+public class mainApp {
+	
+	public static void main(String[] args) {
+		
+//	    get("/", (request, response) -> {
+////	      Map<String, Object> model = new HashMap<String, Object>();
+////	      return model;
+////	    	return "hi";
+//	    	return Things.all();
+//	    	
+//	    });
+		
+		post("/", (request, response) -> {
+String description;
+			description = request.body();
+			Things thing = new Things(description);
+			Things.save(thing);
+		});
+    }
+}

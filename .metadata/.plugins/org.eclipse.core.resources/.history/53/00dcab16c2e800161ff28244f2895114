@@ -1,0 +1,8 @@
+
+public class things {
+
+	public things(description) {
+		String mdescription = description;
+	}
+
+}

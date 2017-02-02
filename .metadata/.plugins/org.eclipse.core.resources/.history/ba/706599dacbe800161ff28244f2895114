@@ -1,0 +1,20 @@
+
+
+public class mainApp {
+	private String mDescription;
+	public mainApp() {
+	  public Task(String description) {
+	    mDescription = description;
+	  }
+
+	  public String getDescription() {
+	    return mDescription;
+	  }
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

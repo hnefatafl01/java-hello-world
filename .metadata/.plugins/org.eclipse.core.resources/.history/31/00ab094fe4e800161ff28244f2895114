@@ -1,0 +1,9 @@
+package spark.template;
+
+public class thingsService {
+
+	public thingsService() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,29 @@
+import java.time.LocalDateTime;
+
+public class Things {
+
+	private String description;
+	private LocalDateTime createdAt;
+	private int id;
+	 
+	public Things(String description) {
+		  this.description = description;
+		  createdAt = LocalDateTime.now();
+	}
+	
+	public String getDescription() {
+	  return description;
+	}
+	
+	public LocalDateTime getCreatedAt() {
+	    return createdAt;
+    }
+	
+	public int getId() {
+	    return id; 
+    }
+	
+	public static Task find(int id) {
+		return Task.id;
+	}
+}

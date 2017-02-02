@@ -1,0 +1,19 @@
+import java.util.Map;
+import java.util.ArrayList;
+import java.util.HashMap;
+import static spark.Spark.*;
+
+
+
+public class mainApp {
+	Thing thingOne = new Thing;
+	public static void main(String[] args) {
+		
+	    get("/", (request, response) -> {
+//	      Map<String, Object> model = new HashMap<String, Object>();
+//	      return model;
+//	    	return "hi";
+	    	return thingOne;
+	    });
+    }
+}

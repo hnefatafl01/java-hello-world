@@ -1,0 +1,11 @@
+
+public class things {
+
+	public things(String description) {
+		String mdescription = description;
+	}
+	
+	public String get Description() {
+		return mDescription;
+	}
+}
